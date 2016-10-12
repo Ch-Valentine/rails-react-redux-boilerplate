@@ -1,0 +1,13 @@
+{
+  "name": "rails-react-redux-boilerplate",
+  "scripts": {
+    "yarn": "cd app/frontend && yarn",
+    "build": "cd app/frontend && npm run build",
+    "start": "cd app/frontend && npm start",
+    "test": "cd app/frontend && npm run test"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}

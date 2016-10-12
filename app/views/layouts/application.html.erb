@@ -3,12 +3,14 @@
   <head>
     <title>RailsReactReduxBoilerplate</title>
     <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
-    <%= yield %>
+    <div id="app"></div>
+    <% if Rails.env.development? %>
+      <script src="http://localhost:3001/static/bundle.js"></script>
+      <%#= javascript_include_tag 'bundle' %>
+    <% else %>
+      <%= javascript_include_tag 'bundle' %>
+    <% end %>
   </body>
 </html>

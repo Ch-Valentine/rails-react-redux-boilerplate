@@ -1,0 +1,4 @@
+export default {
+  TITLE_IS_LOADIND : 'TITLE_IS_LOADIND',
+  TITLE_LOADED : 'TITLE_LOADED'
+};
