@@ -1,4 +1,4 @@
-# The rails react redux boilerplate for begginers.
+# The rails react redux boilerplate.
 ### Installation
 1. Be sure that you have `node > 5.0` and `ruby-2.3.1` installed!
 1. `$ git clone git@github.com:Ch-Valentine/rails-react-redux-boilerplate.git`
