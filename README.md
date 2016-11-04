@@ -28,6 +28,6 @@
 ### Todo
 
 - [ ] Split js files for an optimization.
-- [ ] Include a JS Testing frameworks.
+- [x] Include a JS Testing frameworks.
 - [x] Upgrade npm dependencies to latest versions.
 - [x] Upgrade to ruby and rails latest versions

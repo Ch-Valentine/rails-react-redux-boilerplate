@@ -7,7 +7,7 @@ const initialState = {
 };
 
 export default function(state = initialState, action) {
-  switch(action.type){
+  switch (action.type) {
     case constants.TITLE_IS_LOADIND:
       return Object.assign({}, state, {
         isLoading: true

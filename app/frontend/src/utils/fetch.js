@@ -14,7 +14,7 @@ export function parseJSON(response) {
 }
 
 export function httpGet(url) {
-  return fetch( url, {
+  return fetch(url, {
         method: 'get',
         headers:
          {

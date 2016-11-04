@@ -1,4 +1,4 @@
-module.exports = function (config) {
+module.exports = function(config) {
   config.set({
     // browsers: ['Chrome', 'Firefox', 'Safari'], before git pull
     browsers: ['Chrome'],
