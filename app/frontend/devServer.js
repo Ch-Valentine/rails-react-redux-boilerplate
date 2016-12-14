@@ -13,11 +13,11 @@ app.use(require('webpack-dev-middleware')(compiler, {
 
 app.use(require('webpack-hot-middleware')(compiler));
 
-app.listen(3001, 'localhost', function(err) {
+app.listen(3004, 'localhost', function(err) {
   if (err) {
     console.log(err);
     return;
   }
 
-  console.log('Listening at http://localhost:3001');
+  console.log('Listening at http://localhost:3004');
 });
