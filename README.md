@@ -1,10 +1,16 @@
 # The rails react redux boilerplate.
 ### Installation
-1. Be sure that you have `node > 5.0` and `ruby-2.3.1` installed!
+
+**Be sure that you have installed:**
+1. `node@5.7.0` -> `$ sudo npm install n -g && sudo n 5.7.0`
+2. [yarnpkg](https://yarnpkg.com/en/docs/install)
+3. `ruby-2.3.1`
+
+**Terminal**:
 1. `$ git clone git@github.com:Ch-Valentine/rails-react-redux-boilerplate.git`
 1. `$ cd rails-react-redux-boilerplate`
 1. `$ bundle install`
-1. `$ npm run yarn or $ cd app/frontend && yarn`
+1. `$ npm run yarn` or `$ cd app/frontend && yarn`
 1. `$ rails s`
 1. `$ npm start` or `$ npm run build` in production
 1. open [http://localhost:3000/](http://localhost:3000/)
