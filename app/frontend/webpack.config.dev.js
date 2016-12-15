@@ -4,7 +4,7 @@ const webpack = require('webpack');
 module.exports = {
   entry: [
     'eventsource-polyfill', // necessary for hot reloading with IE
-    'webpack-hot-middleware/client?path=http://localhost:3001/__webpack_hmr',
+    'webpack-hot-middleware/client?path=http://localhost:3004/__webpack_hmr',
     './src/application.jsx'
   ],
   devtool: 'eval',
