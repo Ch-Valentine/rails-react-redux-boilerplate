@@ -8,9 +8,18 @@
 3. `ruby-2.3.1`
 
 **Terminal**:
+- `$ git clone git@github.com:Ch-Valentine/rails-react-redux-boilerplate.git`
+- `$ cd rails-react-redux-boilerplate`
 
-1. `$ git clone git@github.com:Ch-Valentine/rails-react-redux-boilerplate.git`
-1. `$ cd rails-react-redux-boilerplate`
+__or you can rename this project and change the git repo:__
+
+- `$ git clone git@github.com:Ch-Valentine/rails-react-redux-boilerplate.git --origin rails-react-redux-boilerplate your-project-name`
+- `$ cd your-project-name`
+- `$ ./bin/rename_project YourProjectName`
+- `$ ./bin/reset_git https://github.com/yourusername/your-project-name.git`
+
+__then:__
+
 1. `$ bundle install`
 1. `$ npm run yarn` or `$ cd app/frontend && yarn`
 1. `$ rails s`
